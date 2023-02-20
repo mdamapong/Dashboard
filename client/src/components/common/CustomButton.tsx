@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const CustomButton = () => {
-  return (
-    <div>CustomButton</div>
-  )
-}
+	return <div>CustomButton</div>;
+};
 
-export default CustomButton
+export default CustomButton;
