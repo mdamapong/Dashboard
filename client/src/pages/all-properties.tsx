@@ -14,6 +14,13 @@ const AllProperties = () => {
 				<Typography fontSize={25} fontWeight={700} color='#11142d'>
 					All Properties
 				</Typography>
+				<CustomButton
+					title='Add Property'
+					handleClick={() => navigate('/properties/create')}
+					backgroundColor='#475be8'
+					color='#fcfcfc'
+					icon={<Add />}
+				/>
 			</Stack>
 		</Box>
 	);
